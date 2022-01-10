@@ -1,0 +1,15 @@
+1. Install python 2.7.(if dos not install on server)
+2. Open windows command prompt.
+3. Run bellow commands.
+	pip install pypiwin32
+	pip install scrapy
+4. on winautomation, make new bot. > In actions, go to System/Run Application > in Application  Path, put path of scrapy.exe(in generally, C:\Python27\Scripts\scrapy.exe)> in Command Line Arguments, put "crawl Get_GTIN_spider -o result.csv"(-o result.csv: this is file written data gettting yield command) > in Working Directory, put path Get_GTIN_spider(for example, C:\Users\admin\Documents\Get_GTIN)
+Click OK button
+Then run
+
+In here 
+///////
+You must put "Categories Managment.xlsx" file in working directory.
+And if script is running, pls dont open xlsx file.
+
+
